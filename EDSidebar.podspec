@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "EDSidebar"
   s.platform 	   = :osx
-  s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.10'
   s.version      = "1.0.1"
   s.summary      = "Customizable Sidebar for OSX Apps."
   s.description  = <<-DESC
