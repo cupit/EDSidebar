@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 @class EDSideBar;
 
@@ -30,7 +31,7 @@ enum {
 };	
 typedef NSUInteger ECSideBarLayoutMode;
 
-@interface EDSideBar : NSView
+@interface EDSideBar : NSVisualEffectView
 {
 	ECSideBarLayoutMode layoutMode;
 	NSColor *_backgroundColor;
